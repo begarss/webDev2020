@@ -1,0 +1,146 @@
+body{
+	margin:0;
+	padding:0;
+}
+
+body, button, input, label, select, td, textarea {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+
+.container{
+		width:80%;
+  margin:auto;
+  overflow:hidden;
+
+}
+.flexhead{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+header{
+	background-color: #3b5998; 
+
+}
+.nav{
+
+	float: right;
+	font-family: inherit;;
+	align-self: flex-end;
+	margin-bottom: 10px;
+	font-size: 14px;
+	color: white;
+	margin-right: 100px;
+}
+.nav form{
+	margin:0;
+	padding: 0;
+	display: block;
+}
+#in{
+	padding-right: 9px;
+
+}
+#forget{
+	text-decoration: none;
+	color: #9cb4d8;
+}
+.btn{
+	border:1px solid #ccd0d5;
+	padding: 3px;
+
+	color: white;
+	background-color: #4267b2;
+	border-color: #29487d; 
+
+}
+.logo{
+	font-family: 'Raleway', sans-serif;
+	color: white;
+		font-size: 16px;
+		align-self: flex-start;
+
+}
+.logo img{
+	width: 168px;
+    height: 34px;
+    margin-top: 17px;
+    color: white;
+}
+
+/*main*/
+#right{
+	width: 50%;
+}
+#right p{
+	color: #0e385f;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 29px;
+    margin-top: 40px;
+    width: 450px;
+    word-spacing: -1px;
+}
+
+#left{
+	margin-top: 15px;
+	width: 50%;
+	float: left;
+	margin-left: 150px;
+}
+.container2{
+		width:80%;
+  margin:auto;
+  overflow:hidden;
+ display: flex; 
+
+}
+#main{
+	background: linear-gradient(#fff,#d9ddeb);
+}
+#input-reg input{
+	border-radius: 5px;
+	width: 399px;
+	font-size: 18px;
+	padding: 8px 10px;
+	border-color: #bdc7d8;
+	margin:4px;
+	height: 15px;
+
+}
+#input-reg .fio{
+	width: 34%
+
+}
+select{
+	font-size: 13px;
+    height: 30px;
+    padding: 5px;
+}
+option{
+	padding: 0px 2px 1px;
+
+}
+
+.police{
+	width: 399px;
+	font-size: 11px;
+	color: #777;
+}
+
+#greenbtn{
+	border:thick;
+	color: white;
+	border-radius: 6px;
+	width: 180px;
+	height: 30px;
+	margin-bottom: 20px;
+	background: linear-gradient(#67ae55, #578843);
+	font-size: 19px;
+}
+footer{
+	color: #737373;
+    margin: 0 auto;
+    width: 980px;
+}
